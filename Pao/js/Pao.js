@@ -51,6 +51,14 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
+
+    // Toggle navbar visibility on mobile
+    const navbarFavicon = document.querySelector('.navbar-favicon');
+    const navLinks = document.getElementById('nav-links');
+
+    navbarFavicon.addEventListener('click', function() {
+        navLinks.classList.toggle('visible');
+    });
 });
 
 // Efecto al hacer scroll
