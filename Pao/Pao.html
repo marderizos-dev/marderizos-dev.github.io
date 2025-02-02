@@ -6,9 +6,11 @@
     <title>Nuestra Historia | Pao & Mar</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Desktop Navbar -->
+    <nav class="navbar desktop-nav">
         <ul class="nav-links" id="nav-links">
             <img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon">
             <li><a href="#inicio">Inicio</a></li>
@@ -18,15 +20,21 @@
         </ul>
     </nav>
 
-    <nav class="navbar-mobile">
-        <img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon">
-        <ul class="nav-links">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#galeria">Galería</a></li>
-            <li><a href="#musica">Música</a></li>
-            <li><a href="#escritos">Escritos</a></li>
-        </ul>
-    </nav>
+    <!-- Mobile Navbar -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon">
+            <a href="javascript:void(0);" class="hamburger-icon" onclick="toggleMobileMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="mobile-nav-links" id="mobile-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#galeria">Galería</a>
+            <a href="#musica">Música</a>
+            <a href="#escritos">Escritos</a>
+        </div>
+    </div>
 
     <section class="hero" id="inicio">
         <h1>Nuestra historia de dos</h1>

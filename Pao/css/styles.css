@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
+.desktop-nav {
+    display: block;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -69,6 +73,59 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-favicon {
     width: 20px;
     height: auto;
+}
+
+/* Mobile Navbar */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(26, 26, 26, 0.8); /* Mismo color que la navbar del PC */
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.mobile-nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(26, 26, 26, 0.8); /* Mismo color que la navbar del PC */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 107, 152, 0.1);
+}
+
+.hamburger-icon {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.mobile-nav-links {
+    display: none;
+    flex-direction: column;
+    background: rgba(26, 26, 26, 0.9); /* Mismo color que la navbar del PC */
+    padding: 1rem 0;
+    backdrop-filter: blur(10px);
+}
+
+.mobile-nav-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mobile-nav-links a:hover {
+    background-color: var(--surface-color);
+    color: var(--primary-color);
+}
+
+.mobile-nav-links.show {
+    display: flex;
 }
 
 .hero {
@@ -406,5 +463,16 @@ footer {
 
     .navbar-mobile {
         display: flex;
+    }
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+    
+    .mobile-nav {
+        display: block;
     }
 }

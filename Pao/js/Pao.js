@@ -64,9 +64,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarFaviconMobile = document.querySelector('.navbar-mobile .navbar-favicon');
     const navLinksMobile = document.querySelector('.navbar-mobile .nav-links');
 
-    navbarFaviconMobile.addEventListener('click', function() {
-        navLinksMobile.classList.toggle('visible');
-    });
+    if (navbarFaviconMobile) {
+        navbarFaviconMobile.addEventListener('click', function() {
+            navLinksMobile.classList.toggle('visible');
+        });
+    }
 });
 
 // Efecto al hacer scroll
@@ -155,3 +157,29 @@ gallery.addEventListener('click', function(e) {
         modal.style.display = 'flex';
     }
 });
+
+function toggleMobileMenu() {
+    const mobileLinks = document.getElementById('mobile-links');
+    mobileLinks.classList.toggle('show');
+}
+
+// Close mobile menu when clicking a link
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileLinks = document.querySelectorAll('.mobile-nav-links a');
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            document.getElementById('mobile-links').classList.remove('show');
+        });
+    });
+});
+
+// Close mobile menu when scrolling
+let lastScrollTop = 0;
+window.addEventListener('scroll', function() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+        // Scrolling down
+        document.getElementById('mobile-links').classList.remove('show');
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+}, false);
