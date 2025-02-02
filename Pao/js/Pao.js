@@ -59,6 +59,14 @@ document.addEventListener('DOMContentLoaded', function() {
     navbarFavicon.addEventListener('click', function() {
         navLinks.classList.toggle('visible');
     });
+
+    // Toggle navbar visibility on mobile
+    const navbarFaviconMobile = document.querySelector('.navbar-mobile .navbar-favicon');
+    const navLinksMobile = document.querySelector('.navbar-mobile .nav-links');
+
+    navbarFaviconMobile.addEventListener('click', function() {
+        navLinksMobile.classList.toggle('visible');
+    });
 });
 
 // Efecto al hacer scroll

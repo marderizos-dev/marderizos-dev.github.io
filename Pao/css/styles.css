@@ -360,3 +360,51 @@ footer {
         padding: 1rem;
     }
 }
+
+/* Navbar específico para dispositivos móviles */
+.navbar-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(26, 26, 26, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 107, 152, 0.1);
+    z-index: 1000;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-mobile .navbar-favicon {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar-mobile .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(26, 26, 26, 0.9);
+    padding: 1rem 0;
+}
+
+.navbar-mobile .nav-links.visible {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+    }
+}
