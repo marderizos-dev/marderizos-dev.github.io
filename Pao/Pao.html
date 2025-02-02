@@ -3,156 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestra Historia | [Nombre de ella]</title>
-    <style>
-        :root {
-            --rosa: #ff69b4;
-            --morado: #8a2be2;
-            --degradado: linear-gradient(45deg, var(--rosa), var(--morado));
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        body {
-            background: #f8f8f8;
-        }
-
-        .navbar {
-            position: fixed;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 1rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: var(--morado);
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: var(--rosa);
-        }
-
-        .hero {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            background: var(--degradado);
-            color: white;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-            padding: 2rem;
-        }
-
-        .photo-frame {
-            border: 5px solid white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            transition: transform 0.3s;
-        }
-
-        .photo-frame:hover {
-            transform: scale(1.05);
-        }
-
-        .photo-frame img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
-
-        .section {
-            padding: 4rem 2rem;
-            margin: 2rem 0;
-        }
-
-        .section-title {
-            text-align: center;
-            color: var(--morado);
-            margin-bottom: 2rem;
-            font-size: 2.5em;
-        }
-
-        .love-letter {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            line-height: 1.6;
-        }
-
-        .music-player {
-            background: white;
-            max-width: 500px;
-            margin: 2rem auto;
-            padding: 1.5rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .playlist {
-            margin-top: 1rem;
-        }
-
-        footer {
-            background: var(--degradado);
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 4rem;
-        }
-
-        /* Efectos especiales */
-        .heart {
-            position: absolute;
-            background: #fff;
-            pointer-events: none;
-            animation: animate 2s linear;
-        }
-
-        @keyframes animate {
-            0% {
-                transform: translate(-50%, -50%);
-                opacity: 1;
-            }
-            100% {
-                transform: translate(-50%, -1000%);
-                opacity: 0;
-            }
-        }
-    </style>
+    <title>Nuestra Historia | Pao & Mar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar">
         <ul class="nav-links">
+            <li><img src="assets/favicon.ico" alt="Favicon" class="navbar-favicon"></li>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#galeria">Galería</a></li>
             <li><a href="#musica">Música</a></li>
@@ -161,91 +19,63 @@
     </nav>
 
     <section class="hero" id="inicio">
-        <h1>Nuestra Historia</h1>
-        <p>Un viaje lleno de amor y momentos inolvidables</p>
+        <h1>Nuestra historia de dos</h1>
+        <p>Un recuento de nuestros momentos juntos, de nuestra relación, y de las cosas que vamos compartiendo (Y seguiremos compartiendo) en el futuro.</p>
+        <a id="hero-galery-button" href="#galeria" class="hero-button">Explorar Galería</a>
+        <a id="hero-music-button" href="#musica" class="hero-button">Escuchar Música</a>
+        <a id="hero-text-button" href="#escritos" class="hero-button">Leer Escritos</a>
+        <div class="hero-image-text">
+            <img src="assets/hero-image.png" alt="Imagen de amor" class="hero-image">
+            <div class="hero-text">
+                <h2>Para mi PauPau</h2>
+                <p>Desde el primer día, cada momento a tu lado ha sido un carrusel emocional pero hay algo que siempre ha permanecido igual: Mi amor hacia ti.</p>
+            </div>
+        </div>
         <div class="hearts"></div>
+        <div class="hero-decorations">
+            <img src="assets/decorations/flower1.png" alt="Flor decorativa" class="hero-decoration">
+            <img src="assets/decorations/flower2.png" alt="Flor decorativa" class="hero-decoration">
+        </div>
     </section>
 
     <section class="section" id="galeria">
         <h2 class="section-title">Nuestros Momentos</h2>
-        <div class="gallery">
-            <!-- Agrega tus imágenes aquí -->
-            <div class="photo-frame">
-                <img src="foto1.jpg" alt="Nuestra foto">
-            </div>
-            <!-- Repite para más fotos -->
+        <div class="gallery" id="gallery">
+            <!-- Las imágenes se agregarán dinámicamente aquí -->
         </div>
     </section>
 
     <section class="section" id="musica">
-        <h2 class="section-title">Nuestra Banda Sonora</h2>
+        <h2 class="section-title">Nuestra Canción del Día</h2>
         <div class="music-player">
-            <audio id="audioPlayer" src="tu-minueto.mp3"></audio>
-            <div class="controls">
-                <button onclick="togglePlay()">▶️</button>
-                <span>Minueto para [Su nombre]</span>
-                <div class="progress-bar">
-                    <div class="progress"></div>
-                </div>
-            </div>
-        </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3LSpFmja7Qk?si=cEx4SGoAZw3typUh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
     </section>
 
     <section class="section" id="escritos">
-        <h2 class="section-title">Palabras del Corazón</h2>
+        <h2 class="section-title">2 de Febrero</h2>
         <div class="love-letter">
-            <p>Querida [Su nombre],</p>
-            <p>Aquí escribe tu carta de amor...</p>
+            <p>Querida Pao,</p>
+            <p>Sé que te he lastimado mucho en estos días, aunque tú pienses que no es así. <br> 
+               Yo quisiera poder actuar mejor, cambiar para mejor, dejar de decirte cosas que después no son. <br>
+               Muchas veces lo que te digo son los deseos de mi corazón pero no tomo en cuenta los factores externos,
+               ¿Recuerdas todas esas veces que te dije que llegaría a tu casa a una hora y terminé llegando mucho después? <br>
+               Pues bien, es cierto, soy malo administrando el tiempo... Las acciones... Las eventualidades... <br>
+               Pero sé que no te digo las cosas con intención de lastimarte. Sé que un gran gesto, un acto de amor sincero
+               o cualquier otra cosa no funcionará como remedio si yo no consigo cambiar y dejar de causarte tantas desilusiones... <br>
+               En verdad te amo, me duele mucho no cumplir con las cosas que te he dicho. Me duele no llenar tus expectativas, y por
+               eso es que termino creando más y más con la esperanza de cumplirlas y demostrarte que puedo ser mejor, que puedo ser
+               la persona que te mereces. Este escrito es algo similar a eso, pero dicen que si quieres resultados distintos debes hacer cosas distintas
+               y es por eso que, aparte de disculparme una vez más, quiero demostrarte que puedo hacer algo para ti cada día hasta el 14 de febrero,
+               día en el que espero poder hacer algo aún más bonito por ti, mi amor. ¿Me das la oportunidad de mostrarte que puedo ser
+               el chico de tus sueños?</p>
             <!-- Agregar más contenido -->
         </div>
     </section>
 
     <footer>
-        <p>Hecho con ❤️ por [Tu nombre]</p>
+        <p>Hecho con ❤️ por tu Mar</p>
     </footer>
 
-    <script>
-        // Efecto de corazones al hacer clic
-        document.addEventListener('click', function(e) {
-            const heart = document.createElement('div');
-            heart.className = 'heart';
-            heart.style.left = e.clientX + 'px';
-            heart.style.top = e.clientY + 'px';
-            document.body.appendChild(heart);
-            
-            setTimeout(() => heart.remove(), 2000);
-        });
-
-        // Reproductor de música
-        const audio = document.getElementById('audioPlayer');
-        let isPlaying = false;
-
-        function togglePlay() {
-            isPlaying ? audio.pause() : audio.play();
-            isPlaying = !isPlaying;
-        }
-
-        // Scroll suave
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Efecto al hacer scroll
-        window.addEventListener('scroll', () => {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                const sectionTop = section.getBoundingClientRect().top;
-                if(sectionTop < window.innerHeight - 100) {
-                    section.style.opacity = '1';
-                    section.style.transform = 'translateY(0)';
-                }
-            });
-        });
-    </script>
+    <script src="js/Pao.js"></script>
 </body>
 </html>
