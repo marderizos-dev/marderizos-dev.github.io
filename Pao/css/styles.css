@@ -129,7 +129,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-    min-height: 200vh; /* Asegurar que el hero tenga al menos la altura de la ventana gráfica */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,6 +140,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     overflow: hidden;
     z-index: 1; /* Ensure hero section is on top */
+    min-height: 100vh;
 }
 
 .hero-subtitle {
