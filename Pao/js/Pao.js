@@ -9,15 +9,6 @@ document.addEventListener('click', function(e) {
     setTimeout(() => heart.remove(), 2000);
 });
 
-// Reproductor de música
-const audio = document.getElementById('audioPlayer');
-let isPlaying = false;
-
-function togglePlay() {
-    isPlaying ? audio.pause() : audio.play();
-    isPlaying = !isPlaying;
-}
-
 // Ensure DOM is fully loaded before adding event listeners
 document.addEventListener('DOMContentLoaded', function() {
     // Scroll suave
@@ -119,6 +110,13 @@ const descriptions = [
     "Y ver tu sonrisa cuando te beso siempre hace que mi corazón lata más rápido. c':",
     "Tus besos me llenan de alegría el alma",
     "Y tus abrazos me hacen sentir en casa",
+    "No puedo dejar de pensar en ti",
+    "Pues eres tú todo lo que quiero para mi vida",
+    "Cuando estamos frente a frente el tiempo se detiene",
+    "Miremos al futuro juntos, corazón",
+    "Nos miramos tan hermosos juntos",
+    "Te amo, te amo",
+    "y te amo",   
     // ...agrega más descripciones según sea necesario...
 ];
 
