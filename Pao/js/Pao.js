@@ -117,6 +117,13 @@ const descriptions = [
     "Nos miramos tan hermosos juntos",
     "Te amo, te amo",
     "y te amo",   
+    "Embeces hacemos nuestras tonterías juntos",
+    "A veces nos sacamos de onda. jsjsj",
+    "A veces simplemente disfrutamos de la vida",
+    "Pero estar juntos",
+    "Eso es lo que más ilumina mis días",
+    "Y rememorar esos momentos",
+    "Me llena de ternura el corazón",
     // ...agrega más descripciones según sea necesario...
 ];
 
