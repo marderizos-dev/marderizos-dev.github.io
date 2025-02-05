@@ -124,6 +124,13 @@ const descriptions = [
     "Eso es lo que más ilumina mis días",
     "Y rememorar esos momentos",
     "Me llena de ternura el corazón",
+    "Es truste que la mayor parte del tiempo lo hayamos pasado por video llamada, pero",
+    "Cada momento que pasamos lado a lado se vuelve más especial gracias a eso y",
+    "Todos esos recuerdos se vuelven más valiosos",
+    "Más enérgicos, más intensos,",
+    "Más felices",
+    "Sé que me amas como yo te amo, preciosa",
+    "Muchas gracias por estos meses juntos. Por favor, los multipliquemos. UwU",
     // ...agrega más descripciones según sea necesario...
 ];
 
