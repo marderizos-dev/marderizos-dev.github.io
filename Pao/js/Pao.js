@@ -131,6 +131,14 @@ const descriptions = [
     "Más felices",
     "Sé que me amas como yo te amo, preciosa",
     "Muchas gracias por estos meses juntos. Por favor, los multipliquemos. UwU",
+    "De verdad, todo el mundo me dice lo bien que nos vemos juntitos :3",
+    "Aaaah, cómo extraño estar junto a ti en tu balconcito UnU",
+    "Como tú y yo, naidien",
+    "Jsjsj, aquí tengo ojos de marijuano",
+    "Por muchos meses más, mi vida.",
+    "Porque a tu lado",
+    "¡Todo es más divertido! (Aunque tú te enojas por todo. Jsjsj)",
+    "Wof, wof!",
     // ...agrega más descripciones según sea necesario...
 ];
 
