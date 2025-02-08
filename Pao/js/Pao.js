@@ -139,6 +139,12 @@ const descriptions = [
     "Porque a tu lado",
     "¡Todo es más divertido! (Aunque tú te enojas por todo. Jsjsj)",
     "Wof, wof!",
+    "Lado a lado",
+    "Beso a beso",
+    "Día a día",
+    "Simplemente",
+    "No puedo",
+    "Dejar de amarte (Aunque tengas bigote jsjsj) UwU",
     // ...agrega más descripciones según sea necesario...
 ];
 
