@@ -145,6 +145,13 @@ const descriptions = [
     "Simplemente",
     "No puedo",
     "Dejar de amarte (Aunque tengas bigote jsjsj) UwU",
+    "Juntos todo es mejor",
+    "Juntos la música suena más bonita",
+    "Juntos el mundo sonríe",
+    "Juntos cada día es festivo",
+    "Juntos tenemos poder, pero también responsabilidades",
+    "Las responsabilidades principales: Ser felices",
+    "y divertirnos mucho, amor. ",
     // ...agrega más descripciones según sea necesario...
 ];
 
