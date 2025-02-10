@@ -152,6 +152,13 @@ const descriptions = [
     "Juntos tenemos poder, pero también responsabilidades",
     "Las responsabilidades principales: Ser felices",
     "y divertirnos mucho, amor. ",
+    "Tú eres la música en mí",
+    "Tú eres las noches,",
+    "Eres los días,",
+    "Eres las risas,",
+    "y tus sonrisas",
+    "que se contagian",
+    "abrazan a mi alma.",
     // ...agrega más descripciones según sea necesario...
 ];
 
