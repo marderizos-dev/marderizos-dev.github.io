@@ -159,6 +159,13 @@ const descriptions = [
     "y tus sonrisas",
     "que se contagian",
     "abrazan a mi alma.",
+    "La primera navidad a tu lado pudo ser mejor pero",
+    "Las próximas serán mejores, corazón",
+    "También tendremos más música",
+    "Más días juntos",
+    "Más momentos felices",
+    "Iba a poner algo más pero aquí nos vemos como en esa pintura famosa de dos granjeros. Jsjjsjs",
+    "Te amo siempre, amor",
     // ...agrega más descripciones según sea necesario...
 ];
 
