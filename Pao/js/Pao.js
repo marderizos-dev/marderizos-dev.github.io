@@ -166,6 +166,13 @@ const descriptions = [
     "Más momentos felices",
     "Iba a poner algo más pero aquí nos vemos como en esa pintura famosa de dos granjeros. Jsjjsjs",
     "Te amo siempre, amor",
+    "Cómo me encantan las fotos juntos, amor",
+    "Jsjsjsj, te quedan bien los lentes oscuros",
+    "Me encantan las flores que me das :'3",
+    "No puedo dejar de ver tus ojitos bellos",
+    "Me pone re triste no poder verlos en persona :c",
+    "JSAJSAJSJ Aquí no sé ni qué decir xD",
+    "En efecto, necesito verte en traje de payasita o de mimo. Jsjsjs :3 Te ves rechula",
     // ...agrega más descripciones según sea necesario...
 ];
 
