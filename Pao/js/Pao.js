@@ -173,6 +173,13 @@ const descriptions = [
     "Me pone re triste no poder verlos en persona :c",
     "JSAJSAJSJ Aquí no sé ni qué decir xD",
     "En efecto, necesito verte en traje de payasita o de mimo. Jsjsjs :3 Te ves rechula",
+    "Siempre atesoro cada recuerdo contigo, mi vida",
+    "Capibaras, patos, cerditos, flores, todo, todo, todo",
+    "También candaditos en pinos de metal :3",
+    "Cualquier cosa que me recuerde a ti, todo eso lo amo",
+    "Por eso quiero estar junto a ti",
+    "Siempre, siempre, siempre",
+    "Aunque yo sea demasiado empalagoso. Jsjsj.",
     // ...agrega más descripciones según sea necesario...
 ];
 
