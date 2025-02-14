@@ -180,6 +180,13 @@ const descriptions = [
     "Por eso quiero estar junto a ti",
     "Siempre, siempre, siempre",
     "Aunque yo sea demasiado empalagoso. Jsjsj.",
+    "Mi vida",
+    "Cada día sueño con verte de nuevo",
+    "Cada momento que no estoy a tu lado se siente en blanco y negro",
+    "Odio el sol de esta ciudad, prefiero la sombra a tu lado:(",
+    "Las tardes a tu lado, los viajes a tu casa",
+    "Recibir flores de tu parte",
+    "Te extraño demasiado",
     // ...agrega más descripciones según sea necesario...
 ];
 
